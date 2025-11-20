@@ -127,7 +127,7 @@ const ProjectDetailPage: React.FC = () => {
 
                 <ProjectAreas projectId={project.id} />
 
-                <div className="mb-12">
+                {/* <div className="mb-12">
                     <h2 className="text-2xl font-serif font-bold text-white mb-6">Gallery</h2>
                     <div className="flex space-x-4 overflow-x-auto pb-4 scroll-smooth">
                         {project.images.map((img, idx) => (
@@ -140,7 +140,7 @@ const ProjectDetailPage: React.FC = () => {
                             </div>
                         ))}
                     </div>
-                </div>
+                </div> */}
 
                 <div className="mt-12 text-center">
                     <a 

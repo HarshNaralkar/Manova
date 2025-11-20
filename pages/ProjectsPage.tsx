@@ -14,7 +14,7 @@ const ProjectsPage: React.FC = () => {
     const projects: Project[] = [
         { 
             id: 1,
-            img: "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?q=80&w=2070&auto=format&fit=crop", 
+            img: "Portfolioimg1.jfif", 
             title: "Modern Residence", 
             cat: "Residential",
             description: "A contemporary residential design featuring clean lines and minimalist aesthetics.",

@@ -8,8 +8,8 @@ import { ArrowRight } from 'lucide-react';
 const Hero: React.FC = () => {
   // Image paths from public folder - Vite serves these from root in dev mode
   const imagePaths = {
-    colorImg: '/colorimg.jpg',
-    sketchImg: '/blackandwhite.png'
+    colorImg: "img2.jfif",
+    sketchImg: "Portfolioimg1.jfif"
   };
   return (
     <section id="home" className="relative h-screen w-full overflow-hidden">
@@ -21,7 +21,7 @@ const Hero: React.FC = () => {
 
       {/* 
           Full Screen Interactive Reveal 
-          Images are served from the public folder
+           Images are served from the public folder
       */}
       <SketchReveal 
          realSrc={imagePaths.colorImg}
