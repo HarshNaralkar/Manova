@@ -121,9 +121,9 @@ const SketchReveal: React.FC<SketchRevealProps> = ({ realSrc, sketchSrc, childre
 
         {/* Reality Label */}
         <div className="absolute top-32 right-8 md:right-12 z-20">
-          <span className="text-[10px] font-bold tracking-[0.3em] uppercase text-[#EBE9E4]/80 border-b border-[#EBE9E4]/50 pb-1">
+          {/* <span className="text-[10px] font-bold tracking-[0.3em] uppercase text-[#EBE9E4]/80 border-b border-[#EBE9E4]/50 pb-1">
             Reality
-          </span>
+          </span> */}
         </div>
       </div>
 
@@ -186,9 +186,9 @@ const SketchReveal: React.FC<SketchRevealProps> = ({ realSrc, sketchSrc, childre
 
          {/* Concept Label */}
          <div className="absolute top-32 left-8 md:left-12 z-30">
-          <span className="text-[10px] font-bold tracking-[0.3em] uppercase text-white/90 border-b border-white/50 pb-1">
+          {/* <span className="text-[10px] font-bold tracking-[0.3em] uppercase text-white/90 border-b border-white/50 pb-1">
             Concept
-          </span>
+          </span> */}
         </div>
       </div>
 

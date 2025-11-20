@@ -31,7 +31,7 @@ const Hero: React.FC = () => {
         {/* Content is rendered identically in both layers */}
         <div className="max-w-4xl mx-auto text-center flex flex-col items-center justify-center min-h-[60vh]">
           <motion.div
-            initial={{ opacity: 0, y: 20 }}
+            initial={{ opacity: 0, y: 20}}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 1, ease: "easeOut" }}
             className="flex flex-col items-center w-full"
@@ -40,19 +40,19 @@ const Hero: React.FC = () => {
             <div className="flex flex-col items-center gap-3 mb-8">
               <div className="h-16 w-[1px] divider"></div>
               <span className="text-xs font-bold tracking-[0.4em] uppercase opacity-80">
-                Est. 2024
+                Est. 2025
               </span>
             </div>
             
             {/* Main Heading */}
             <h1 className="text-6xl md:text-8xl xl:text-9xl font-bold leading-[0.9] mb-6 tracking-tight relative">
               MANOVAA <br />
-              <span className="italic font-light accent-text text-5xl md:text-7xl block mt-2">Interiors</span>
+              {/* <span className="italic font-light accent-text text-5xl md:text-7xl block mt-2">By Saloni</span> */}
             </h1>
             
             {/* Description */}
             <p className="leading-relaxed max-w-xl text-sm md:text-base mb-10 font-light mx-auto opacity-90">
-              From conceptual sketches to tangible luxury. We craft sophisticated spaces where earthy neutrals meet metallic elegance, reflecting deep creative thought.
+              By Saloni
             </p>
 
             {/* Buttons */}
@@ -72,13 +72,13 @@ const Hero: React.FC = () => {
               animate={{ opacity: 1 }}
               transition={{ delay: 1.5, duration: 1 }}
             >
-               <div className="w-8 h-8 rounded-full border border-current flex items-center justify-center animate-pulse">
+               {/* <div className="w-8 h-8 rounded-full border border-current flex items-center justify-center animate-pulse">
                   <ArrowRight size={14} className="icon-current" />
-               </div>
-               <div className="text-left">
+               </div> */}
+               {/* <div className="text-left">
                  <p className="text-[10px] font-bold uppercase tracking-wider mb-0.5">Interactive View</p>
                  <p className="text-[10px] opacity-80 leading-tight">Drag the slider to reveal the process.</p>
-               </div>
+               </div> */}
             </motion.div>
 
           </motion.div>
@@ -92,7 +92,7 @@ const Hero: React.FC = () => {
         animate={{ opacity: 1 }}
         transition={{ delay: 2 }}
       >
-        <span className="text-[10px] tracking-[0.3em] uppercase">Scroll</span>
+        {/* <span className="text-[10px] tracking-[0.3em] uppercase">Scroll</span> */}
         <div className="h-12 w-[1px] bg-white"></div>
       </motion.div>
     </section>
