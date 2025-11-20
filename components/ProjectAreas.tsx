@@ -13,7 +13,7 @@ const ProjectAreas: React.FC<ProjectAreasProps> = ({ projectId }) => {
     // Image galleries for each area - customizable per project
     const areaGalleries = {
         hall: [
-            "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?q=80&w=1400&auto=format&fit=crop",
+            "img1.jfif",
             "https://images.unsplash.com/photo-1592078615290-033ee584e267?q=80&w=1400&auto=format&fit=crop",
             "https://images.unsplash.com/photo-1555041469-a586c61ea9bc?q=80&w=1400&auto=format&fit=crop",
             "https://images.unsplash.com/photo-1551632786-de05b6f91721?q=80&w=1400&auto=format&fit=crop",
