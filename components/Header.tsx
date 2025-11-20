@@ -34,7 +34,6 @@ const Header: React.FC = () => {
   const navLinks = [
     { href: "#/", text: "Home" },
     { href: "#/projects", text: "Projects" },
-    { href: "#/gallery", text: "Gallery" },
     { href: "#/services", text: "Services" },
     { href: "#/about", text: "About Us" },
     { href: "#/contact", text: "Contact" },
@@ -57,14 +56,7 @@ const Header: React.FC = () => {
                 </NavLink>
               ))}
             </div>
-            <div className="ml-6 flex items-center space-x-2">
-              <a href="#" className="text-white border border-gray-600 hover:bg-gray-700/50 rounded-full px-4 py-2 text-sm font-medium transition-colors duration-300">
-                Sign Up
-              </a>
-              <a href="#" className="text-black bg-[#b89e5a] hover:bg-opacity-80 rounded-full px-4 py-2 text-sm font-medium transition-colors duration-300">
-                Login
-              </a>
-            </div>
+
           </div>
 
           {/* Mobile menu button */}
@@ -96,24 +88,6 @@ const Header: React.FC = () => {
                 {link.text}
               </NavLink>
             ))}
-            <div className="pt-4 pb-2 border-t border-gray-700">
-              <div className="flex space-x-2">
-                <a 
-                  href="#" 
-                  onClick={closeMenu}
-                  className="w-full text-center text-white border border-gray-600 hover:bg-gray-700/50 rounded-full px-4 py-2 text-sm font-medium transition-colors duration-300"
-                >
-                  Sign Up
-                </a>
-                <a 
-                  href="#" 
-                  onClick={closeMenu}
-                  className="w-full text-center text-black bg-[#b89e5a] hover:bg-opacity-80 rounded-full px-4 py-2 text-sm font-medium transition-colors duration-300"
-                >
-                  Login
-                </a>
-              </div>
-            </div>
           </div>
         </div>
       </nav>

@@ -3,10 +3,10 @@ import { ChevronLeftIcon } from './icons/ChevronLeftIcon';
 import { ChevronRightIcon } from './icons/ChevronRightIcon';
 
 const portfolioImages = [
-  "https://images.unsplash.com/photo-1617104677241-c75002a823f6?q=80&w=1920&auto=format&fit=crop",
+  "https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?q=80&w=1100&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
   "https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?q=80&w=1920&auto=format&fit=crop",
   "https://images.unsplash.com/photo-1554995207-c18c203602cb?q=80&w=1920&auto=format&fit=crop",
-  "https://images.unsplash.com/photo-1560185007-c5ca9d2c015d?q=80&w=1920&auto=format&fit=crop",
+  "https://images.unsplash.com/photo-1564078516393-cf04bd966897?q=80&w=387&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3",
 ];
 
 const TabButton: React.FC<{ active?: boolean; children: React.ReactNode }> = ({ active, children }) => (
