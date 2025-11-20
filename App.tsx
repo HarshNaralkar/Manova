@@ -1,10 +1,11 @@
 import React, { useState, useEffect } from 'react';
 import Header from './components/Header';
 import Footer from './components/Footer';
-
+import Landingpage from './components/Landingpage';
 // Import pages from the new 'pages' directory
 import HomePage from './pages/HomePage';
 import ProjectsPage from './pages/ProjectsPage';
+import ProjectDetailPage from './pages/ProjectDetailPage';
 import ServicesPage from './pages/ServicesPage';
 import AboutPage from './pages/AboutPage';
 import ContactPage from './pages/ContactPage';
@@ -29,18 +30,20 @@ const App: React.FC = () => {
   }, []);
 
   const renderPage = () => {
-    switch (route) {
-      case '#/projects':
+    switch (true) {
+      case route.startsWith('#/project-detail/'):
+        return <ProjectDetailPage />;
+      case route === '#/projects':
         return <ProjectsPage />;
-      case '#/gallery':
+      case route === '#/gallery':
         return <GalleryPage />;
-      case '#/services':
+      case route === '#/services':
         return <ServicesPage />;
-      case '#/about':
+      case route === '#/about':
         return <AboutPage />;
-      case '#/contact':
+      case route === '#/contact':
         return <ContactPage />;
-      case '#/':
+      case route === '#/' || route === '':
       default:
         return <HomePage />;
     }
